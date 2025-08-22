@@ -216,6 +216,13 @@ body {
     z-index: 1;
 }
 
+/* Efeito de hover para as habilidades */
+.skill.hovered {
+    transform: scale(1.1);
+    background-color: #007bff;
+    color: #fff;
+}
+
 .hero::before {
     content: '';
     position: absolute;
